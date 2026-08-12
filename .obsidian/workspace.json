@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "b02120e2f00ff4a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "de0b9a0b92cddcc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f9ecab0e5c2b76d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-求职面试与职业发展/AI开发岗位求职实战指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI开发岗位求职实战指南"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "15ed8bb250b5ab47",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5b86fd6ea6b60f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48d8f3d9b482a9a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6ca8a898428f870a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "03acafbdf1648f72",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 456.5
+  },
+  "right": {
+    "id": "42cc32d632e93f91",
+    "type": "split",
+    "children": [
+      {
+        "id": "70158dc0f231e3ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f774fe47b8a814b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "b1f84e754895108a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "525f2c6e5c34c5e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "98691df68908b736",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "1b87137aa8a0b2ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "9f9ecab0e5c2b76d",
+  "lastOpenFiles": [
+    "08-高频量化交易/高频量化工程技能掌握教程_完整版.md",
+    "05-求职面试与职业发展/AI开发岗位求职实战指南.md",
+    "05-求职面试与职业发展/AI开发岗位六大知识模块免费学习渠道汇总.md",
+    "05-求职面试与职业发展/求职成功全攻略_最终修复版.md",
+    "05-求职面试与职业发展/求职成功全攻略_职业指导综合指南.md",
+    "05-求职面试与职业发展/2026年中国AI开发岗位薪资与能力要求调研报告.md",
+    "03-AI Agent与智能体/如何成为AI原生工程师-阅读摘要.md",
+    "03-AI Agent与智能体/AI智能体开发实习完整实战手册.md",
+    "03-AI Agent与智能体/Coding Agents 101：阅读摘要.md",
+    "02-AI开发工具与平台/OpenCode Go 接入 Claude Code 教程_2026.md",
+    "02-AI开发工具与平台/opencode-deepseek-tutorial.md",
+    "02-AI开发工具与平台/OpenCode+Obsidian教程.md",
+    "02-AI开发工具与平台/AI 代码助手团队落地方案.md",
+    "02-AI开发工具与平台/OpenCode新手完全教程.md",
+    "02-AI开发工具与平台/How-Anthropic-teams-use-Claude-Code_v2.md",
+    "02-AI开发工具与平台/Anthropic-Claude-Code-使用指南-核心精炼版.md",
+    "11-脚本工具/_Index.md",
+    "10-科技前沿/Industrial Training Appendices updated 19Feb2021.md",
+    "10-科技前沿/测试数据集合.md",
+    "10-科技前沿/2028年全球智能危机.md",
+    "10-科技前沿/2026年4月AI行业发展全景报告.md",
+    "04-AI写作与内容创作/论文级 AI 写作工具指南_2026.md",
+    "04-AI写作与内容创作/论文级 AI 写作工具_快速指南.md",
+    "04-AI写作与内容创作/_Index.md",
+    "03-AI Agent与智能体/handbook.md",
+    "03-AI Agent与智能体/Agent 自进化的两大方向与四大趋势.md"
+  ]
+}
