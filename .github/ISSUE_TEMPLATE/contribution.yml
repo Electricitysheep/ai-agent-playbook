@@ -1,0 +1,44 @@
+name: 📝 贡献笔记
+description: 提交一篇新的 AI Agent / 量化方向深度笔记
+title: "[Note] "
+labels: ["good first issue", "note"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 贡献指南（先读）
+        - 命名规范：`YYYYMMDD_主题_类型.md`
+        - 原创优先：优先实测/源码级内容，二手信息需标注来源
+        - 证据分级：深度调研建议标注证据来源层级
+        - 不收录：个人简历、求职内容、私有项目评测
+  - type: input
+    id: title
+    attributes:
+      label: 笔记标题
+      placeholder: 20260812_XXX调研_调研报告.md
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 01-AI工程
+        - 02-量化金融
+        - 03-行业观察
+        - 04-编程基础
+        - 05-工程实践
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 内容概要（3-5 行）
+      description: 这篇笔记讲什么？核心结论是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 资料来源
+      description: 论文/官方文档/实测过程，附链接

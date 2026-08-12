@@ -1,0 +1,40 @@
+name: 💡 内容/工具建议
+description: 建议新增笔记主题、代码实验或研究方向
+title: "[Suggest] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的建议！好的选题是知识库的生命力。
+  - type: dropdown
+    id: type
+    attributes:
+      label: 建议类型
+      options:
+        - 📝 新增笔记主题
+        - 🧪 新增代码实验
+        - 🛠️ 新增工具/教程
+        - 🔄 更新现有内容
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: 主题方向
+      description: 一句话说清你想看到的内容
+      placeholder: 例如：MCP 协议开发实战、Agent 记忆架构调研
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么值得做
+      description: 这个主题对哪些人有价值？解决了什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: 参考资料
+      description: 如果你有相关论文/文章/代码链接，请附上（可加速调研）

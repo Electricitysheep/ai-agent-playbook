@@ -1,0 +1,42 @@
+name: 🐛 Bug 报告
+description: 报告内容错误、链接失效或代码实验异常
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢报告问题！请填写以下信息，帮助我们快速定位。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题区域
+      description: 问题出在哪个部分？
+      options:
+        - 📝 笔记内容错误
+        - 🔗 链接失效
+        - 🧪 代码实验异常
+        - 📚 目录/索引问题
+        - 🧐 其他
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: 文件路径
+      description: 出问题的笔记/文件路径（如 01-AI工程/01-Agent智能体/xxx.md）
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 具体是什么问题？期望的行为是什么？
+      placeholder: 例如：第 3 节中提到的 A2A v1.0.1 实际应为 v1.0（附来源链接）
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据/来源
+      description: 如果有官方文档或来源链接，请贴出来（本库强调证据分级）
