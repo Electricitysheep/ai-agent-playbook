@@ -9,7 +9,8 @@ An evidence-driven knowledge base on AI Agents: from agent architecture source-c
 [![Stars](https://img.shields.io/github/stars/Electricitysheep/ai-agent-playbook?style=for-the-badge&logo=github)](https://github.com/Electricitysheep/ai-agent-playbook)
 [![License](https://img.shields.io/github/license/Electricitysheep/ai-agent-playbook?style=for-the-badge)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/Electricitysheep/ai-agent-playbook?style=for-the-badge)](https://github.com/Electricitysheep/ai-agent-playbook/commits/master)
-[![Content](https://img.shields.io/badge/Content-100%2B%20Notes-blue?style=for-the-badge)](.)
+[![Content](https://img.shields.io/badge/Content-106%20Notes-blue?style=for-the-badge)](.)
+[![Experiments](https://img.shields.io/badge/Code-16%20Experiments-green?style=for-the-badge)](./02-量化金融/02-AI与量化前沿/03-代码实验/)
 [![Obsidian](https://img.shields.io/badge/Obsidian-Vault-purple?style=for-the-badge&logo=obsidian)](.)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
@@ -73,6 +74,28 @@ Or open directly in Obsidian (recommended): **Obsidian → Open folder as vault 
 1. 🏆 [Agent-to-Agent Capability Comparison (14 agents)](./01-AI工程/01-Agent智能体/20260812_主流Agent的Agent-to-Agent能力对比调研报告.md)
 2. 📊 [How AI Embeds into Quant Finance](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/01_LLM因子挖掘工程化.md)
 3. 🔬 [Claude Code Agent Teams Source Analysis](./01-AI工程/01-Agent智能体/20260812_ClaudeCode_AgentTeams与DynamicWorkflows_源码级深挖.md)
+
+## 📊 Content Stats
+
+| Section | Count | Description |
+|---------|-------|-------------|
+| 🧠 AI Agent Deep Research | 16 | Source-level analysis + A2A protocol + Harness |
+| 🛠 AI-Assisted Dev Playbooks | 18 | Claude Code / OpenCode / OMP / Orca tutorials |
+| 📈 AI×Quant Thematic Notes | 11 | LLM factor mining → production risk control |
+| 📖 Quant Paper Readings | 9 | Trading-R1 / Chain-of-Alpha / Fin-R1 etc. |
+| 🧪 Runnable Code Experiments | 16 | Clone-and-run, no API key needed |
+| 📰 Industry Deep Insights | 19 | Harness landscape / model analysis / paradigms |
+
+**106 original notes + 16 runnable experiments**, all evidence-graded.
+
+## 🧪 Quick Experiment Start
+
+```bash
+cd 02-量化金融/02-AI与量化前沿/03-代码实验/01_LLM因子三道检验/
+python main.py   # requires pandas / yfinance
+```
+
+→ Full experiment map: [Code Experiments Index](./02-量化金融/02-AI与量化前沿/03-代码实验/README.md)
 
 ## 🤝 Contributing
 

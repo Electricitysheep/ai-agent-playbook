@@ -9,7 +9,8 @@
 [![Stars](https://img.shields.io/github/stars/Electricitysheep/ai-agent-playbook?style=for-the-badge&logo=github)](https://github.com/Electricitysheep/ai-agent-playbook)
 [![License](https://img.shields.io/github/license/Electricitysheep/ai-agent-playbook?style=for-the-badge)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/Electricitysheep/ai-agent-playbook?style=for-the-badge)](https://github.com/Electricitysheep/ai-agent-playbook/commits/master)
-[![Content](https://img.shields.io/badge/Content-100%2B%20Notes-blue?style=for-the-badge)](.)
+[![Content](https://img.shields.io/badge/Content-106%20Notes-blue?style=for-the-badge)](.)
+[![Experiments](https://img.shields.io/badge/Code-16%20Experiments-green?style=for-the-badge)](./02-量化金融/02-AI与量化前沿/03-代码实验/)
 [![Obsidian](https://img.shields.io/badge/Obsidian-Vault-purple?style=for-the-badge&logo=obsidian)](.)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
@@ -29,6 +30,19 @@
 - 📰 **行业深度观察**：Harness 开源版图、模型发布研判、前沿范式追踪（图工程、长上下文退化）
 
 每一篇调研都标注**证据来源与可信度分级**（官方文档 / 社区逆向 / 本机实测），拒绝二手转述。
+
+## 📊 内容统计
+
+| 板块 | 数量 | 说明 |
+|------|------|------|
+| 🧠 AI Agent 深度调研 | 16 篇 | 源码级拆解 + A2A 协议 + Harness 分析 |
+| 🛠 AI 辅助开发实战 | 18 篇 | Claude Code / OpenCode / OMP / Orca 教程 |
+| 📈 AI×量化主题笔记 | 11 篇 | 因子挖掘到生产风控全链路 |
+| 📖 量化论文精读 | 9 篇 | Trading-R1 / Chain-of-Alpha / Fin-R1 等 |
+| 🧪 可运行代码实验 | 16 个 | clone 即跑，无需 API key |
+| 📰 行业深度观察 | 19 篇 | Harness 版图 / 模型研判 / 前沿范式 |
+
+**合计 106 篇原创内容笔记 + 16 个可运行实验**，全部标注证据来源。
 
 ## 🎯 适用人群
 
@@ -90,9 +104,32 @@ git clone https://github.com/Electricitysheep/ai-agent-playbook.git
 
 ### AI × 量化金融（差异化核心）
 
-- **11 篇主题深度笔记**：LLM 因子挖掘、TSFM 选型、RL 最优执行、多智能体交易、回测纪律
-- **9 篇论文精读**：Trading-R1、Fin-R1、Can LLMs Trade、Chain-of-Alpha 等
-- **16 个可运行代码实验**：每个实验含 `main.py` + 说明文档，开箱即跑（见 [代码实验索引](./02-量化金融/02-AI与量化前沿/03-代码实验/)）
+#### 📝 11 篇主题深度笔记
+
+| 主题 | 核心问题 |
+|------|---------|
+| [LLM 因子挖掘工程化](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/01_LLM因子挖掘工程化.md) | 生成→评估→筛选的完整因子管道 |
+| [TSFM 选型与微调](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/02_时序基础模型TSFM选型与微调.md) | Chronos/TimesFM 谁适合金融？ |
+| [RL 最优执行](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/03_RL最优执行.md) | Almgren-Chriss vs 强化学习 |
+| [多智能体交易框架源码精读](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/04_多智能体交易框架源码精读.md) | TradingAgents 的辩论路由机制 |
+| [Qlib 与 RD-Agent](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/05_端到端AI量化管线_Qlib与RD-Agent.md) | 微软端到端管线怎么用 |
+| [回测纪律与过拟合诊断](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/07_回测纪律与过拟合诊断.md) | PSR/DSR/PBO 怎么防自欺 |
+| [生产系统与合规架构](./02-量化金融/02-AI与量化前沿/01-主题深度笔记/11_生产系统与合规架构.md) | Agent 幻觉如何被风控拦截 |
+
+#### 📖 9 篇论文精读
+
+Trading-R1 · Fin-R1 · RETuning · LLM 股价预测综述 · Can LLMs Trade · TradingGNN · Chain-of-Alpha · TSFM 金融综述 · Lopez de Prado AFML（见 [论文精读索引](./02-量化金融/02-AI与量化前沿/02-论文精读/00_索引.md)）
+
+#### 🧪 16 个可运行代码实验
+
+每个实验 = `main.py` + 独立 README，**clone 即跑**（无需 API key）：
+
+```bash
+cd 02-量化金融/02-AI与量化前沿/03-代码实验/01_LLM因子三道检验/
+python main.py   # 需要 pandas / yfinance
+```
+
+→ 完整实验地图见 [代码实验总索引](./02-量化金融/02-AI与量化前沿/03-代码实验/README.md)（按 因子→模型→执行→数据→回测→组合→生产 七阶段组织）
 
 ## 🤝 贡献
 
